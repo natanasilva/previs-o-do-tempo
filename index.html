@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Previsão</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="conteudo">
+        <input type="text" name="cidade" id="cidade" placeholder="Busque uma cidade" required>
+        <button onclick="pegarCidade()">
+        <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+        <div class="caixa-media">
+            <h2 class="cidade">Busque uma cidade</h2>
+            <p class="temperatura">A temperatura aqui</p>
+            <div class="caixa-menor">
+                <img class="icone" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="descricao">Tempo agora</p>
+            </div>
+            <p class="umidade">Umidade Aqui</p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
